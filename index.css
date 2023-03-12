@@ -1,0 +1,127 @@
+* {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(circle farthest-corner at 1.3% 2.8%, rgba(239, 249, 249, 1) 0%, rgba(182, 199, 226, 1) 100.2%);
+}
+
+header {
+  margin: 1em 0;
+  padding: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  color: #333333;
+  background-color: #E5E5E5;
+
+}
+
+ul>li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 25em;
+  margin: 1em 15em;
+  padding: 1em;
+  list-style-type: none;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  width: 1200px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 8px black
+}
+
+#img-caption {
+  margin: 2em;
+
+}
+
+#tribute-info>#info-title {
+  font-size: 2.5em;
+  margin: 2em;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.4em;
+  width: 100%;
+  margin: 0 1.2em;
+}
+
+.year {
+  font-size: 3em;
+  width: 120px;
+  height: 70px;
+  padding: .3em;
+  margin: .5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 8px;
+  box-shadow: 0 0 12px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.barcelona {
+  background-image: url("https://static.displate.com/857x1200/displate/2021-07-29/c17b1cd1249e7c7150f45d923d2bcfb4_6c2abd7b18bb5680558f58d7c5d6d45b.jpg");
+  color: #F6DD77;
+}
+
+.argentina {
+  background-image: url("https://flags-world.com/wp-content/uploads/2021/01/flag-of-argentina_2.png");
+  color: #514F5B;
+}
+
+.personal {
+  background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+  color: #4A4900;
+}
+
+.newells {
+
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/dc/Bandera_de_Col%C3%B3n_y_Newells.png");
+  color: #FFF8F2;
+}
+
+.psg {
+  background-image: url("https://cdn.sportmob.com/resource/news/20200209_298032/item_5_3234.jpg?cache=1602702002");
+  color: #F6DD77;
+}
+
+#info {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  background-color: #E5E5E5;
+  color: #333333;
+}
+
+.dev-contact {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 600px;
+}
+
+a:visited {
+  color: #555
+}
+
+a:link {
+  color: #555
+}
